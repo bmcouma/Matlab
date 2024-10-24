@@ -1,0 +1,165 @@
+body {
+    background-color: blueviolet;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 100px;
+}
+
+.left-section h1 {
+    font-size: 24px;
+    color: rebeccapurple;
+    margin: 0;
+
+}
+
+.left-section h1 {
+    color: violet;
+}
+
+
+.left-section p {
+    margin-top: 10px;
+    color: black;
+}
+
+.left-section a {
+    color: blue;
+    text-decoration: none;
+}
+
+.left-section img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.right-section {
+    flex: 1;
+
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+form input[type="email"],
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+body {
+    background-color: blueviolet;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.left-section {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.left-section h1 {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+}
+
+.left-section p {
+    margin-top: 10px;
+    color: black;
+}
+
+.left-section a {
+    color: blue;
+    text-decoration: none;
+}
+
+.left-section img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.right-section {
+    flex: 1;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+form input[type="email"],
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
